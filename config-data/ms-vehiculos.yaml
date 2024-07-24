@@ -5,6 +5,9 @@ spring:
     url: jdbc:postgresql://bd-vehiculos:5432/BD-Vehiculos
     username: postgres
     password: hola123
+  jpa:
+    hibernate:
+      ddl-auto: update
 eureka:
   instance:
     hostname: localhost
