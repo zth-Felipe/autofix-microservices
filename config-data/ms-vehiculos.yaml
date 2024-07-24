@@ -5,6 +5,7 @@ spring:
     url: jdbc:postgresql://bd-vehiculos:5432/BD-Vehiculos
     username: postgres
     password: hola123
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
