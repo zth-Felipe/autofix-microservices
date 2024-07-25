@@ -2,16 +2,9 @@ server:
   port: 8092
 spring:
   datasource:
-    url: jdbc:postgresql://bd-vehiculos:5432/BD-Vehiculos
+    url: jdbc:postgresql://localhost:5432/BD-Vehiculos
     username: postgres
     password: hola123
-    driver-class-name: org.postgresql.Driver
-  jpa:
-    hibernate:
-      ddl-auto: update
-  properties:
-    hibernate:
-      dialect: org.hibernate.dialect.PostgreSQLDialect
 eureka:
   instance:
     hostname: localhost
