@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ms-reportes-deployment
+  labels:
+    app: ms-reportes-deployment
+spec:
+  selector:
+    matchLabels:
+      app: ms-reportes-deployment
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: ms-reportes-deployment
+    spec:
+      containers:
+        - name: ms-reportes
+          image: zthfelipe/ms-reportes
+          ports:
+            - containerPort: 8093
+          env:
+            - name: SERVER_PORT
+              value: "0"
