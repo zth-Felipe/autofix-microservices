@@ -10,7 +10,7 @@ spring:
       ddl-auto: update
 eureka:
   instance:
-    hostname: localhost
+    preferIpAddress: true
   client:
     fetch-registry: true
     register-with-eureka: true
