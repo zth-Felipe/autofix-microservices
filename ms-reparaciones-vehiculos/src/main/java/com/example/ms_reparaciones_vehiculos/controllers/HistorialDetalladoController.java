@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/DetalleReparacion")
-@CrossOrigin("*")
 public class HistorialDetalladoController {
 
 }
