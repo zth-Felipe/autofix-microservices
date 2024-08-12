@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: autofix-frontend-container
-          image: jaimeriquelme/autofix-frontend-ms
+          image: zthfelipe/autofix-frontend-ms
           ports:
             - containerPort: 3000
 ---

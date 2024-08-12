@@ -5,12 +5,12 @@ metadata:
   labels:
     app: postgres-config-map
 data:
-  DB_HOST_REPAIRLIST: BD-Reparaciones-service
+  DB_HOST_REPAIRLIST: repairlist-db-service
   DB_PORT_REPAIRLIST: "5432"
-  DB_NAME_REPAIRLIST: BD-Reparaciones
-  DB_HOST_REPAIRVEHICLE: BD-Repa-Vehi-service
+  DB_NAME_REPAIRLIST: reparacionesdb
+  DB_HOST_REPAIRVEHICLE: repairvehicles-db-service
   DB_PORT_REPAIRVEHICLE: "5432"
-  DB_NAME_REPAIRVEHICLE: BD-Repa-Vehi
-  DB_HOST_VEHICLES: BD-Vehiculos-service
+  DB_NAME_REPAIRVEHICLE: repavehidb
+  DB_HOST_VEHICLES: vehicles-db-service
   DB_PORT_VEHICLES: "5432"
-  DB_NAME_VEHICLES: vehiculos-db-service
+  DB_NAME_VEHICLES: vehiculosdb

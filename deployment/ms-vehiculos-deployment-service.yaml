@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ms-vehicles-deployment
+  name: ms-vehiculos-deployment
   labels:
-    app: ms-vehicles-deployment
+    app: ms-vehiculos-deployment
 spec:
   selector:
     matchLabels:
